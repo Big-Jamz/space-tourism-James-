@@ -1,11 +1,10 @@
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
-import Layout from "./pages/Layout";
+import Layout from "./pages/layout";
 import Home from "./pages/home";
 import Destination from "./pages/destination";
-import Crew from "./pages/Crew";
-import Technology from "./pages/Technology";
+import Crew from "./pages/crew";
+import Technology from "./pages/technology";
 
 function App() {
   return (
