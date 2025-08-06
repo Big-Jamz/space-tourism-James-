@@ -2,7 +2,7 @@ import React from "react";
 import { Outlet, useLocation } from "react-router-dom";
 import Header from "../components/Header";
 
-const Layout = () => {
+function Layout() {
   const location = useLocation();
 
   const bgImages = {
@@ -32,7 +32,6 @@ const Layout = () => {
 
   return (
     <div className="min-h-screen w-full text-white relative overflow-hidden">
-     
       <picture>
         <source media="(min-width:1024px)" srcSet={image.desktop} />
         <source media="(min-width:768px)" srcSet={image.tablet} />
@@ -43,15 +42,13 @@ const Layout = () => {
         />
       </picture>
 
-     
       <Header />
 
-      
       <main className="relative z-10">
         <Outlet />
       </main>
     </div>
   );
-};
+}
 
 export default Layout;

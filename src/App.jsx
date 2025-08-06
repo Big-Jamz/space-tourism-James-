@@ -1,6 +1,6 @@
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layout from "./pages/layout";
+import Layout from "./pages/Layout.jsx";
 import Home from "./pages/home";
 import Destination from "./pages/destination";
 import Crew from "./pages/crew";
