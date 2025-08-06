@@ -1,6 +1,6 @@
 import React from "react";
 import { Outlet, useLocation } from "react-router-dom";
-import Header from "../components/Header";
+import Header from "../components/header";
 
 function Layout() {
   const location = useLocation();
